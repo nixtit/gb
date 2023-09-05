@@ -1,6 +1,7 @@
-numbers = [2, -5, 13, -7, 6, -4]
+numbers = [2, 5, 13, 7, 6, 4]
 size = 6
-count = 0
+sum = 0
+avg = 0
 index = 0
 while index < size :
     if numbers[index] > 0 :
