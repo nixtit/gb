@@ -4,7 +4,7 @@ sum = 0
 avg = 0
 index = 0
 while index < size :
-    if numbers[index] > 0 :
-        count = count + 1
+    sum = sum + numbers[index]
     index = index + 1
-print(count)
+avg = sum / size
+print(avg)
